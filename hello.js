@@ -1,16 +1,15 @@
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>JavaScript Numbers</h2>
-
-<p>Number can be written with or without decimals.</p>
-
-<p id="demo"></p>
-
-<script>
-document.getElementById("demo").innerHTML = 10.50;
-</script>
-
-</body>
-</html>
+<html>  
+<head>  
+<script type="text/javascript">  
+function msg(){  
+ alert("Hello Javatpoint");  
+}  
+</script>  
+</head>  
+<body>  
+<p>Welcome to JavaScript</p>  
+<form>  
+<input type="button" value="click" onclick="msg()"/>  
+</form>  
+</body>  
+</html>  
